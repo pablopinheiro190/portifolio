@@ -1,14 +1,14 @@
-# portifolio
+# portfolio
 
 Portifolio Front
 
-## Tarefas
+## Tasks
 
-O controle das tarefas desse projeto será realizado no GitHub
+The control of the tasks of this project will be carried out on GitHub
 
-## Ícones
+## Icons
 
-- :package: nova funcionalidade
-- :up: atualização
-- :beatle: correção de bug
+- :package: new function
+- :up: att
+- :beetle: bug fix
 - :checkered_flag: release
