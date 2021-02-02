@@ -15,6 +15,10 @@
     --font-action: "Mulish", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hamburguer{
     width: 2rem;
     height: 2rem;
@@ -40,6 +44,7 @@
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1px #000;
     transition: transform 1s;
+    z-index: 150;
 }
 
 .show-menu #line1{
@@ -185,6 +190,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 1;
 }
 
 .show-menu .sidebar{
@@ -441,7 +447,7 @@ header {
     width: 35%;
     background: 
         linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22, 0.9)), 
-        url(images/contato.jpg);
+        url(../images/contato.jpg);
     background-size: cover;
 }
 
@@ -516,7 +522,7 @@ header {
     height: 100vh;
     background: 
         linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22, 0.9)), 
-        url("./images/bg-orcamento.jpg");
+        url("../images/bg-orcamento.jpg");
     object-fit: cover;
     display: flex;
     justify-content: center;
@@ -579,4 +585,53 @@ header {
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+}
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secondary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+#link-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: #DA22FF;  
+    background: -webkit-linear-gradient(to right, #DA22FF, #9733EE); 
+    background: linear-gradient(to right, #DA22FF, #9733EE); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 1rem 0.6rem #00000000;
 }
